@@ -43,8 +43,9 @@ namespace BM_C
                                         Console.WriteLine("\nMenu");
                                         Console.WriteLine("1. Melihat Seluruh data");
                                         Console.WriteLine("2. Tambah Data");
-                                        Console.WriteLine("3. Keluar");
-                                        Console.Write("\n Enter your choice(1-3):");
+                                        Console.WriteLine("3. Hapus Data");
+                                        Console.WriteLine("4. Keluar");
+                                        Console.Write("\n Enter your choice(1-4):");
                                         char ch = Convert.ToChar(Console.ReadLine());
                                         switch (ch)
                                         {
@@ -85,6 +86,12 @@ namespace BM_C
                                                 }
                                                 break;
                                             case '3':
+                                                {
+
+                                                }
+                                                break;
+
+                                            case '4':
                                                 conn.Close();
                                                 return;
                                             default:
