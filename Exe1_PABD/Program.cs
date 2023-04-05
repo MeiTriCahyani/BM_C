@@ -10,6 +10,7 @@ namespace BM_C
 {
     class Program
     {
+         
         static void Main(string[] args)
         {
             Program pr = new Program();
@@ -168,5 +169,6 @@ namespace BM_C
            
         }
     }
+
 }
 
