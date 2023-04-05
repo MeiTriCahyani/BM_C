@@ -130,7 +130,7 @@ namespace BM_C
         }
         public void baca(SqlConnection con)
         {
-            SqlCommand cmd = new SqlCommand("Select * From HRD.Mahasiswa", con);
+            SqlCommand cmd = new SqlCommand("Select * From Peminjaman", con);
             SqlDataReader r = cmd.ExecuteReader();
             while (r.Read())
             {
@@ -157,6 +157,12 @@ namespace BM_C
             cmd.ExecuteNonQuery();
             Console.WriteLine("Data Berhasil Ditambahkan");
 
+        }
+
+        public void delete(string id_pinjam,SqlConnection con)
+        {
+            string str = "";
+            SqlCommand cmd = new SqlCommand(str, con);
         }
     }
 }
