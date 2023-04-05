@@ -87,6 +87,8 @@ namespace BM_C
                                                 break;
                                             case '3':
                                                 {
+                                                    Console.WriteLine("\n Masukkan Id Pinjam");
+                                                    string id_pinjam = Console.ReadLine();
 
                                                 }
                                                 break;
@@ -163,6 +165,7 @@ namespace BM_C
         {
             string str = "";
             SqlCommand cmd = new SqlCommand(str, con);
+           
         }
     }
 }
